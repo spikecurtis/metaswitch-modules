@@ -44,7 +44,9 @@ Clone this repository.
 
 From the `net-modules` directory
 
-    make images
+    docker pull calico/node:v0.5.4
+    docker save -o calico-node-v0.5.4.tar calico/node:v0.5.4
+    docker-compose build
 
 ## Run the "before" demo
 
