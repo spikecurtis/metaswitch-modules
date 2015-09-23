@@ -21,3 +21,7 @@ st: images
 	docker-compose rm --force
 	docker-compose pull
 	test/run_compose_st.sh
+
+dist-image:
+	docker build -f mesos-dist.Dockerfile -t calico/mesos:latest .
+
