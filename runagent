@@ -83,4 +83,4 @@ do
 done
 popd >/dev/null
 
-/mesos/build/bin/mesos-slave.sh
+/root/mesos-slave.sh
